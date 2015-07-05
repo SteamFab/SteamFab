@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Exo:200,300,400,500,600);
+@import url(//fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -5887,7 +5887,7 @@ button.close {
     padding: 20px 40px;
     letter-spacing: 0.5px; }
     .navbar-inverse .navbar-nav li > a:hover {
-      color: #595d61; }
+      color: #a0a0a0; }
   @media (min-width: 768px) {
     .navbar-inverse .navbar-nav > li > a {
       padding: 16.5px 10px; }
@@ -5941,7 +5941,7 @@ footer {
     letter-spacing: 0.3px;
     font-weight: 300; }
     footer a:hover, footer a:active, footer a:focus {
-      color: #595d61;
+      color: #a0a0a0;
       text-decoration: none; }
   footer .logo-wrap {
     padding: 30px 10px; }
