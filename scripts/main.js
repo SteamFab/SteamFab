@@ -77,7 +77,7 @@ $(document).ready(function() {
 // Animation (face up) when item comes into Viewport
 //    $('.animated').viewportChecker();
     
-var images = ['Hero-4', 'Hero-4'];
+var images = ['Hero-1', 'Hero-2', 'Hero-3', 'Hero-4', 'Hero-5', 'Hero-6'];
 var mq = window.matchMedia('all and (max-width: 768px)');
 
 if(mq.matches) {
