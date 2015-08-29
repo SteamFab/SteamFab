@@ -86,3 +86,24 @@ if(mq.matches) {
    $('.jumbotron').css({'background-image': 'url(../images/' + images[Math.floor(Math.random() * images.length)] + '.jpg)'});
     }
 });
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+$(document).ready(function () {
+
+    var msg = getParameterByName('msg');
+    if (msg == "success") {
+        $(".success").removeClass("hide")
+        $("#name").focus();
+        return false;
+    }
+    else {
+        $(".success").addClass("hide")
+        $("#name").focus();
+    }
+
+});

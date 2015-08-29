@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <title>SteamFab.io</title>
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	
 </head>
 
 <body>
@@ -320,29 +320,7 @@ and link is created from the Campaign Monitor Web site
   border-color: #d6e9c6;
   }
 </style>
-<script type="text/javascript">
-  
-  function getParameterByName(name) {
-  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-  results = regex.exec(location.search);
-  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-  }
-  $(document).ready(function () {
 
-  var msg = getParameterByName('msg');
-  if (msg == "success") {
-  $(".success").removeClass("hide")
-  $("#name").focus();
-  return false;
-  }
-  else{
-  $(".success").addClass("hide")
-  $("#name").focus();
-  }
-
-  });
-</script>
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
 <script src="scripts/main.js"></script>
