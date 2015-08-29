@@ -6,7 +6,7 @@ $user = 'steamfab';
 $pass = 'iMNpt42NwHYPpu';
 
 $errors = '';
-$myemail = 'rupareliya.girish@gmail.com';//<-----Put Your email address here.
+$myemail = 'martin@caliviaconsult.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
    empty($_POST['email']) ||
    empty($_POST['location'])|| 
@@ -35,7 +35,7 @@ if( empty($errors))
 $params = array(
     'api_user'  => $user,
     'api_key'   => $pass,
-    'to'        => 'rupareliya.girish@gmail.com',
+    'to'        => $myemail,
     'subject'   => $email_subject,
     'html'      => '',
     'text'      => $email_body,

@@ -33,7 +33,7 @@ if( empty($errors))
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: http://steamfab.itwebzone.in/?msg=success');
+	header('Location: http://steamfab.github.io/?msg=success');
 } 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
