@@ -3,7 +3,7 @@
 
 $url = 'https://api.sendgrid.com/';
 $user = 'steamfab';
-$pass = 'iMNpt42NwHYPpu';
+$pass = '';
 
 $errors = '';
 $myemail = 'martin@caliviaconsult.com';//<-----Put Your email address here.

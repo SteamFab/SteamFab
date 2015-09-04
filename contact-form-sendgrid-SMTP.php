@@ -28,7 +28,7 @@
 
  // Login credentials
  $username = 'steamfab';
- $password = 'iMNpt42NwHYPpu';
+ $password = '';
 
  // Setup Swift mailer parameters
  $transport = Swift_SmtpTransport::newInstance('smtp.sendgrid.net', 587);
